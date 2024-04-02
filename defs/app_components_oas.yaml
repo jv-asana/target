@@ -1490,7 +1490,7 @@ paths:
       - $ref: '#/components/parameters/attachment'
       - $ref: '#/components/parameters/expires_at'
     get:
-      summary: Get widget metadata
+      summary: Get widget metadata ----
       description: >-
         _Note: The path is a placeholder. The actual path is determined by the
         configuration of the app component._
