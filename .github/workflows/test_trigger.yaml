@@ -1,0 +1,14 @@
+name: Test trigger
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test-something:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print
+        run: |
+          $echo "this was triggered"
