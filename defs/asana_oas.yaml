@@ -21962,7 +21962,7 @@ paths:
     parameters:
       - $ref: '#/components/parameters/pretty'
     get:
-      summary: Get multiple tasks - test
+      summary: Get multiple tasks - test2
       description: >-
         Returns the compact task records for some filtered set of tasks. Use one
         or more of the parameters provided to filter the tasks returned. You must
