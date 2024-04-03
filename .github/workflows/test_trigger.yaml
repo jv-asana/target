@@ -3,7 +3,7 @@ name: Test trigger
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test-something:
@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Print
         run: |
-          $echo "this was triggered"
+          echo "this was triggered"
