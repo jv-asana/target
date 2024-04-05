@@ -44184,7 +44184,7 @@ paths:
           $ref: '#/components/responses/InternalServerError'
   /tasks:
     get:
-      summary: Get multiple tasks --- test --
+      summary: Get multiple tasks
       description: >-
         Returns the compact task records for some filtered set of tasks. Use one
         or more of the parameters provided to filter the tasks returned. You must
